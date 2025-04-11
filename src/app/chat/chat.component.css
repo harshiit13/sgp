@@ -114,7 +114,7 @@ body, html {
     margin: 0;
     padding: 0;
     overflow: hidden;    /* 🔥 Prevent extra scrolling */
-    background-image: url('../../assets/bg-img.png');
+    background-image: url('../../assets/bg2.png');
     background-size: cover;         /* Stretch to cover entire screen */
     background-position: center;    /* Center the image */
     background-repeat: no-repeat;   /* No repeating */
@@ -122,18 +122,24 @@ body, html {
   
   
   #chat-container {
+    position: absolute;
+    top: 10px;     /* Margin from top */
+    left: 20px;   /* Margin from right */
+  
     width: 100%;
-    max-width: 1000px;
-
-    height: 600px;
+    max-width: 800px;
+    height: 475px;
+  
     border: 1px solid #ccc;
     padding: 16px;
     border-radius: 10px;
     background: rgb(255, 255, 255);
     box-shadow: 0 4px 12px rgba(241, 243, 111, 0.1);
+  
     display: flex;
     flex-direction: column;
   }
+  
   
   .rotating-img {
     width: 60px;

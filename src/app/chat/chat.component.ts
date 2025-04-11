@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class ChatComponent {
   userInput: string = '';
   chatHistory: { text: string; className: 'user' | 'bot' }[] = [
-    {text: 'Welcome to Krishna.AI! Ask me anything about the Bhagavad Gita.', className: 'bot'},
+    {text: 'Radhey Radhey 🙏 , Krishna is listening...', className: 'bot'},
   ];
 
   userData: string = '';

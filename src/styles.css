@@ -4,9 +4,20 @@ body{
     
 }
 
-* {
 
-    cursor: none;
+  @font-face {
+    font-family: 'MyFont';
+    src: url('../src/assets/SAMAN___.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .my-font {
+    font-family: 'MyFont', sans-serif !important;
+  }
+
+* {
+    cursor: none !important;
   }
 
   button, a, [role="button"] {

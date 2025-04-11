@@ -14,6 +14,16 @@
     background-repeat: no-repeat;   /* No repeating */
   }
 
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .landing-hero {
     text-align: center;
     padding: 40px 20px;
@@ -31,7 +41,7 @@
   .krishna-img {
     width: 100px;
     height: auto;
-    animation: float 3s ease-in-out infinite;
+    animation: spin 3s linear infinite;
     margin-bottom: 20px;
   }
   
