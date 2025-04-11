@@ -1,0 +1,88 @@
+.bg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;       /* Full viewport height */
+
+    margin: 0; ;
+    padding: 0;
+    overflow: hidden;    /* 🔥 Prevent extra scrolling */
+    background-image: url('../../assets/h-img.png');
+    background-size: cover;         /* Stretch to cover entire screen */
+    background-position: center;    /* Center the image */
+    background-repeat: no-repeat;   /* No repeating */
+  }
+
+  .landing-hero {
+    text-align: center;
+    padding: 40px 20px;
+
+    background: linear-gradient(to bottom, #fff7e6, #fef6d3); /* soft golden */
+    color: #5a3e0c;
+    font-family: 'Georgia', serif;
+  }
+  
+  .welcome-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .krishna-img {
+    width: 100px;
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #d4942a;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-para {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #704c16;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(244, 194, 80, 0.3);
+  }
+  
+  /* floating image animation */
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
+  
+
+  .start-button-container {
+    margin-top: 30px;
+  }
+  
+  .start-chat-btn {
+    background: linear-gradient(145deg, #fdd591, #f7b733);
+    border: none;
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #4c2c06;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(251, 191, 36, 0.5);
+    transition: all 0.3s ease;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+    font-family: 'Georgia', serif;
+  }
+  
+  .start-chat-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #f7b733, #fdd591);
+    box-shadow: 0 10px 25px rgba(251, 191, 36, 0.6);
+  }
+  

@@ -1,0 +1,19 @@
+<div id="chat-container">
+    <img src="assets/r-img.png" alt="Rotating Icon" class="rotating-img" />
+  
+    <div id="chatbox">
+      <div *ngFor="let msg of chatHistory" [ngClass]="msg.className" [innerHTML]="msg.text"></div>
+    </div>
+  
+    <div class="chat-input-container">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Ask something about Bhagavad Gita..."
+        [(ngModel)]="userInput"
+        (keypress)="handleKeyPress($event)"
+      />
+      <button (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+  

@@ -1,0 +1,156 @@
+
+/* Chatbox */
+#chatbox {
+    padding: 15px;
+    height: 450px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+/* Messages */
+.message {
+    max-width: 80%;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.user {
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    align-self: flex-end;
+    background-color: #ecd7b7;
+    color: rgba(0, 0, 0, 0.651);
+    text-align: right;
+    transition: 0.5s;
+}
+
+.bot {
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    align-self: flex-start;
+    background-color: #fcd78d;
+    color: #000000;
+    text-align: left;
+    transition: 0.5s;
+}
+
+/* Chat Input Section */
+.chat-input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f5af19;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+ 
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0 0 2px 1px #f5af19;
+}
+
+.bot:hover {
+    box-shadow: 0 0 3px black;
+ 
+}
+
+.user:hover {
+    box-shadow: 0 0 3px rgb(232, 227, 227);
+
+}
+
+/* Scrollbar */
+#chatbox::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chatbox::-webkit-scrollbar-thumb {
+    background-color: #bbbbbb94;
+    border-radius: 50px;
+}
+
+/* Make sure the body takes full height and removes margin */
+body, html {
+
+    margin: 0px !important;
+  }
+  
+  /* Use flexbox to center content */
+  :host {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;       /* Full viewport height */
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    /* 🔥 Prevent extra scrolling */
+    background-image: url('../../assets/bg-img.png');
+    background-size: cover;         /* Stretch to cover entire screen */
+    background-position: center;    /* Center the image */
+    background-repeat: no-repeat;   /* No repeating */
+  }
+  
+  
+  #chat-container {
+    width: 100%;
+    max-width: 1000px;
+
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 12px rgba(241, 243, 111, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rotating-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 16px auto; /* center horizontally + bottom margin */
+    animation: spin 4s linear infinite;
+    display: block;
+  }
+  
+  /* Animation keyframes */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
