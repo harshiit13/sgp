@@ -5,16 +5,16 @@ To run this in your local computer , you have to install angular version 11.2.9 
  # 1 
  install node from it's official site.
 
-#2
+# 2
   run this command --> npm install -g @angular/cli@11.2.9
 
-#3
+# 3
 clone this repo using clone method 
 
-#4
+# 4
 get into the sgp folder and run " mg serve " command
 
-#DONE
+# DONE
 visit to http://localhost:4200/
 
  
