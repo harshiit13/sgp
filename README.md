@@ -1,3 +1,25 @@
+# Installation 
+
+To run this in your local computer , you have to install angular version 11.2.9 and node version 12.22.12
+
+ # 1 
+ install node from it's official site.
+
+#2
+  run this command --> npm install -g @angular/cli@11.2.9
+
+#3
+clone this repo using clone method 
+
+#4
+get into the sgp folder and run " mg serve " command
+
+#DONE
+visit to http://localhost:4200/
+
+ 
+
+
 # Sgp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
@@ -6,13 +28,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
