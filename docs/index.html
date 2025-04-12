@@ -7,6 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="./assets/web1.png">
 <link rel="stylesheet" href="styles.css"></head>
+
+  <style>
+    .rotating-image {
+  width: 100px;
+  height: 100px;
+  background-image: url('/assets/images/your-new-image.png');
+  background-size: cover;
+  background-position: center;
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+  </style>
 <body>
   <app-root></app-root> 
 <script src="runtime.js" defer></script><script src="polyfills.js" defer></script><script src="vendor.js" defer></script><script src="main.js" defer></script></body>
