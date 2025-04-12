@@ -11,7 +11,7 @@ export class ChatComponent {
   chatHistory: { text: string; className: 'user' | 'bot' }[] = [
     {text: 'Radhey Radhey 🙏 , Krishna is listening...', className: 'bot'},
   ];
-
+ // these are some of the longest long form content which we has
   userData: string = '';
   botData: string = '';
 
