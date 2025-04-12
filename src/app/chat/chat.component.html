@@ -1,5 +1,5 @@
 <div id="chat-container">
-    <img src="../../assets/Chakra.png" alt="Rotating Icon" class="rotating-img" />
+    <img src="assets/Chakra.png" alt="Rotating Icon" class="rotating-img" />
   
     <div id="chatbox">
       <div *ngFor="let msg of chatHistory" [ngClass]="msg.className" [innerHTML]="msg.text"></div>
