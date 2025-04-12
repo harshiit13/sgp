@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0px !important;
+    
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('SAMAN___.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.my-font {
+    font-family: 'MyFont', sans-serif !important;
+  }
+* {
+    cursor: none !important;
+  }
+button, a, [role="button"] {
+    cursor: none !important;
+  }
+
+/*# sourceMappingURL=styles.css.map*/
