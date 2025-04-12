@@ -12,7 +12,7 @@ To run this in your local computer , you have to install angular version 11.2.9 
 clone this repo using clone method 
 
 # 4
-get into the sgp folder "cd shp" and run " ng serve " command
+get into the sgp folder "cd sgp" and run " ng serve " command
 
 # DONE
 visit to http://localhost:4200/
