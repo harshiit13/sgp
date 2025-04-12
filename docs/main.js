@@ -175,7 +175,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 11, vars: 0, consts: [[1, "bg"], [1, "landing-hero"], [1, "welcome-content"], ["src", "../../assets/Chakra.png", "alt", "Krishna playing flute", 1, "krishna-img"], [1, "welcome-title", "my-font"], [1, "welcome-para"], [1, "start-button-container"], ["routerLink", "/chat", 1, "start-chat-btn", "my-font"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 11, vars: 0, consts: [[1, "bg"], [1, "landing-hero"], [1, "welcome-content"], ["src", "assets/Chakra.png", "alt", "Krishna playing flute", 1, "krishna-img"], [1, "welcome-title", "my-font"], [1, "welcome-para"], [1, "start-button-container"], ["routerLink", "/chat", 1, "start-chat-btn", "my-font"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "section", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -290,7 +290,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.circleElements = _t);
     } }, hostBindings: function AppComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("mousemove", function AppComponent_mousemove_HostBindingHandler($event) { return ctx.onMouseMove($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
-    } }, decls: 39, vars: 0, consts: [[1, "nav-container"], [1, "nav-logo"], ["src", "../assets/web1.png", "alt", "Logo"], [1, "nav-links"], ["routerLink", "/"], ["routerLink", "/about"], ["routerLink", "/chat"], ["routerLink", "/contact"], [1, "circle"], ["circleDiv", ""]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 39, vars: 0, consts: [[1, "nav-container"], [1, "nav-logo"], ["src", "assets/web1.png", "alt", "Logo"], [1, "nav-links"], ["routerLink", "/"], ["routerLink", "/about"], ["routerLink", "/chat"], ["routerLink", "/contact"], [1, "circle"], ["circleDiv", ""]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
